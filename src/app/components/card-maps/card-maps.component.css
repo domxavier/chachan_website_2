@@ -1,0 +1,57 @@
+.card-container {
+    perspective: 700px;
+}
+
+.card-flip, .card-container {
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+}
+
+.card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.back {
+    transform: rotateX(-180deg);
+}
+
+.card-container:hover .card-flip {
+    transform: rotateX(180deg);
+}
+
+.card-flip {
+    display: grid; grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+    min-height: 150px;
+}
+
+.front {
+    grid-area: frontAndBack;
+    padding: 5px;
+    border-radius: 0px;
+}
+
+.back {
+    grid-area: frontAndBack;
+    transform: rotateX(-180deg);
+    padding: 5px;
+    border-radius: 0px;
+}
+
+.global-front {
+    background-image: url("../../../assets/images/covid-global2.jpg");
+}
+
+.state-front {
+    background-image: url("../../../assets/images/covid-nj.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.zip-codes-front {
+    background-image: url("../../../assets/images/covid-zip-codes.jpg");
+
+}

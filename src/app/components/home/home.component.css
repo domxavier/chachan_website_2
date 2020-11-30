@@ -1,0 +1,9 @@
+.container {
+    background-color: #7C878E;
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 10px;
+}
+
+.covid-header {
+    color: white;
+}

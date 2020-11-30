@@ -2,17 +2,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { HomeComponent } from './components/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { CardMapsComponent } from './components/card-maps/card-maps.component';
+import { NavPanelComponent } from './components/nav-panel/nav-panel.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    CardMapsComponent,
+    NavPanelComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [HomeComponent]
 })
 export class AppModule { }

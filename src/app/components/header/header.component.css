@@ -1,0 +1,11 @@
+.jumbotron {
+    background-color:#002a54;
+    color: white;
+    margin-top: 50px;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    left:0;
+    right:0;
+}
