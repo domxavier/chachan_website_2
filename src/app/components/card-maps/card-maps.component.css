@@ -5,6 +5,7 @@
 .card-flip, .card-container {
     transform-style: preserve-3d;
     transition: all 0.7s ease;
+    margin-top: 10px;
 }
 
 .card-flip div {
@@ -25,7 +26,8 @@
     grid-template-areas: "frontAndBack";
     transform-style: preserve-3d;
     transition: all 0.7s ease;
-    min-height: 150px;
+    /* min-height: 150px; */
+    min-height: 250px;
 }
 
 .front {
