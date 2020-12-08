@@ -1,4 +1,4 @@
-.container {
+.covid_container {
     background-color: #002a54;
     /* background: rgba(0, 0, 0, 0.5); */
     padding: 10px;
@@ -8,4 +8,23 @@
 
 .covid-header {
     color: white;
+}
+
+.aboutus_container {
+    background-color: #A4C8E1;
+}
+
+a { 
+    color: white; 
+}
+
+.aboutus_links {
+    background-color: #002a54;
+    width: 110px;
+}
+
+hr.style12 {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }

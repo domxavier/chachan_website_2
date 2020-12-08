@@ -44,16 +44,18 @@
 }
 
 .global-front {
-    background-image: url("../../../assets/images/covid-global2.jpg");
+    background-image: url("../../../assets/images/US_ZIP_SVI_2.jpeg");
+    background-size: 100% 100%;
 }
 
 .state-front {
     background-image: url("../../../assets/images/covid-nj.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 110%;
 }
 
-.zip-codes-front {
-    background-image: url("../../../assets/images/covid-zip-codes.jpg");
-
+.modelling-front {
+    background-image: url("../../../assets/images/Figure2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
 }
